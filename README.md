@@ -28,6 +28,7 @@ Together the networks will try to decrease their respective losses, hence the na
 
 ## Usage:
 - Download the required images, and put it in the data folder:
+
 **Note: To get the best result ensure that the images don't vary dratically**
 
 - To preprocess the images run resize.py, followed by RGBA2RGB.py with the following argumanets
@@ -77,3 +78,9 @@ The GAN was trained for 29 hrs on a dataset consisting of various abstract paint
 <p align="center">
 <img src="https://github.com/crypto-code/GAN/blob/master/assets/example.jpg" align="middle" />   </p>
 
+These aren't perfect because perfecting the generator requires a lot of computational power.
+
+# G00D LUCK
+
+For doubts email me at:
+atinsaki@gmail.com
