@@ -71,6 +71,18 @@ optional arguments:
   --batch BATCH    Batch Size
 ```
 
+- To crop out individual images from the generated batch you can use crop.py
+```
+usage: crop.py [-h] --input INPUT --output OUTPUT
+
+Crop Individual Images
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --input INPUT    Input Image
+  --output OUTPUT  Output Directory
+```
+
 ## Generated Examples
 
 The GAN was trained for 29 hrs on a dataset consisting of various abstract paintings, and it came up with these
