@@ -275,7 +275,7 @@ def test(out):
 #---------------------------------------------------------------------------------------------------------------------------------
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Resize Input Images')
+    parser = argparse.ArgumentParser(description='Train or Test the Generative Adverserail Network')
     parser.add_argument('--mode',type=str,required=True,help='Whether to Test or Train')
     parser.add_argument('--name',type=str, default='newPaint', help='Directory of the Generated Images eg: NewPaints')
     parser.add_argument('--input',type=str, default='RGB_data',help='Directory of input Images eg: RGB_data')
