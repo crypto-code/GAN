@@ -16,7 +16,7 @@ def main(src, dst):
 
 
 if __name__=="__main__":
-  parser = argparse.ArgumentParser(description='Resize Input Images')
+  parser = argparse.ArgumentParser(description='Crop Individual Images')
   parser.add_argument('--input',type=str,required=True,help='Input Image')
   parser.add_argument('--output',type=str,required=True,help='Output Directory')
   args = parser.parse_args()
