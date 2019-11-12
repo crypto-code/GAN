@@ -5,7 +5,7 @@ Using a Generative Adversarial Network to Generate Images
 
 A GAN consists of two Neural Networks a Generative Network and a Discriminative Networks.
 
-- **Generative Netork**: It is a network which takes in a random noise vector and generates images that are **"similar"** to the input images.
+- **Generative Network**: It is a network which takes in a random noise vector and generates images that are **"similar"** to the input images.
 <p align="center">
 <img src="https://github.com/crypto-code/GAN/blob/master/assets/gen_model.png" width="800" align="middle" />   </p>
 
@@ -15,7 +15,7 @@ A GAN consists of two Neural Networks a Generative Network and a Discriminative 
 <img src="https://github.com/crypto-code/GAN/blob/master/assets/disc_model.jpg" width="800" align="middle" />   </p>
 
 
-Together the networks will try to decrease their respective losses, hence the name **"Adverserial Netowrks"**
+Together the networks will try to decrease their respective losses, hence the name **"Adverserial Networks"**
 <p align="center">
 <img src="https://github.com/crypto-code/GAN/blob/master/assets/model.png" width="800" align="middle" />   </p>
 
