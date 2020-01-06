@@ -85,7 +85,7 @@ optional arguments:
 
 ## Generated Examples
 
-The GAN was trained for 29 hrs on a dataset consisting of various abstract landscape paintings, and it came up with these
+The GAN was trained for 29 hrs on a dataset consisting of various paintings of landscapes, and it came up with these
 
 <p align="center">
 <img src="https://github.com/crypto-code/GAN/blob/master/assets/example.jpg" align="middle" />   </p>
